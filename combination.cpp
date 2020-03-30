@@ -1,3 +1,8 @@
+/**
+ * created: 30.03.2020
+ * reference: https://drken1215.hatenablog.com/entry/2018/06/08/210000
+**/ 
+
 #include <bits/stdc++.h>
 using namespace std;
 
