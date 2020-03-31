@@ -5,21 +5,22 @@
 
 #include<bits/stdc++.h>
 using namespace std;
+typedef long long ll; 
 
-int n;
+ll n;
 
-using P = pair<int, int>;
-const int V = 10000, INF = 1 << 28;
+using P = pair<ll, ll>;
+const int V = 10000;
 vector<P> G[V]; // pair<辺の距離, 行き先の頂点> (隣接リスト)
-int dist[V]; // dist[i]はsから頂点iへの最短距離が入る
+ll dist[V]; // dist[i]はsから頂点iへの最短距離が入る
 bool used[V];
-void dijkstra(int s) { // s: 始点
-    fill_n(dist, V, INF);
+void dijkstra(ll s) { // s: 始点
+    fill_n(dist, V, INT_MAX);
     fill_n(used, V, false);
     priority_queue<P, vector<P>, greater<P>> q; // 値が小さい順に取り出されるpriority_queue
     q.push(P(0, s));
     while(!q.empty()) {
-        int d, t; // d: sからの距離 t: 行き先
+        ll d, t; // d: sからの距離 t: 行き先
         tie(d, t) = q.top(); q.pop();
         if (used[t]) continue; // 既に探索済か
         used[t] = true; dist[t] = d;
@@ -36,7 +37,7 @@ void dijkstra(int s) { // s: 始点
 
 int main() {
     cin >> n;
-    int u, k, v, c;
+    ll u, k, v, c;
     for(int i = 0; i < n; i++){
         cin >> u >> k;
         for(int j = 0; j < k; j++){
