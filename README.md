@@ -18,6 +18,13 @@
 
 ### 数学
 
+#### 最大公約数・最小公倍数
+
+| 名前 | プログラム                                                   | 説明       |
+| ---- | ------------------------------------------------------------ | ---------- |
+| gcd  | [gcd.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/gcd.cpp) | 最大公約数 |
+| lcm  | [lcm.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/lcm.cpp) | 最小公倍数 |
+
 #### 組み合わせ
 
 | 名前        | プログラム                                                   | 説明                        |
