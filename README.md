@@ -18,9 +18,17 @@
 
 ### 数学
 
+#### 組み合わせ
+
 | 名前        | プログラム                                                   | 説明                        |
 | ----------- | ------------------------------------------------------------ | --------------------------- |
 | Combination | [combination.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/combination.cpp) | Mod Pにおける組み合わせ計算 |
+
+#### 素数
+
+| 名前          | プログラム                                                   | 説明       |
+| ------------- | ------------------------------------------------------------ | ---------- |
+| Factorization | [factorization.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/factorization.cpp) | 素因数分解 |
 
 ### 経路探索
 
