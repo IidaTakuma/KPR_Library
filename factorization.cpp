@@ -4,24 +4,30 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+using ll = long long;
 
 // 数値を受け取り素因数分解の結果を返す
+// 計算量はおおよそO(√N)
 // 形式：12 -> [[2, 2], [3, 1]]
-vector<pair<int, int>> factorization(int num)
+vector<pair<ll, ll>>
+factorization(ll num)
 {
-    map<int, int> mp;
-    int n = 2;
-    while (num != 1)
+    map<ll, ll> mp;
+
+    ll tmp = num;
+    for (ll i = 2; i * i <= num; i++)
     {
-        if (num % n == 0)
+        while (tmp % i == 0)
         {
-            mp[n]++;
-            num /= n;
-            continue;
+            mp[i]++;
+            tmp /= i;
         }
-        n++;
     }
-    vector<pair<int, int>> ret;
+    if (tmp != 1)
+    {
+        mp[num]++;
+    }
+    vector<pair<ll, ll>> ret;
     for (auto m : mp)
     {
         ret.push_back(make_pair(m.first, m.second));
