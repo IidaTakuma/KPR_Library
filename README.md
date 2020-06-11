@@ -9,7 +9,7 @@
 | 名前   | プログラム                                                   | 説明 |
 | ------ | ------------------------------------------------------------ | ---- |
 | Modint | [modint.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/modint.cpp) |      |
-| ModPow | [mod_pow.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/mod_pow.cpp) | 高速な累乗計算 |
+| ModPow | [mod_pow.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/mod_pow.cpp) | 高速な累乗計算(繰り返し二乗法) |
 
 ### データ構造
 
