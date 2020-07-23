@@ -7,10 +7,10 @@
 using namespace std;
 typedef long long ll;
 
-ll n;
+// << Notion: 頂点数とINFの設定値を適切に変更すること >>
 
 using P = pair<ll, ll>;
-const int V = 10000;
+const int V = 10000; // 頂点数
 vector<P> G[V]; // pair<辺の距離, 行き先の頂点> (隣接リスト)
 ll dist[V];     // dist[i]はsから頂点iへの最短距離が入る
 bool used[V];
@@ -44,6 +44,7 @@ void dijkstra(ll s)
 
 int main()
 {
+    ll n;
     cin >> n;
     ll u, k, v, c;
     for (int i = 0; i < n; i++)
