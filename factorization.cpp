@@ -25,7 +25,7 @@ factorization(ll num)
     }
     if (tmp != 1)
     {
-        mp[num]++;
+        mp[tmp]++;
     }
     vector<pair<ll, ll>> ret;
     for (auto m : mp)
