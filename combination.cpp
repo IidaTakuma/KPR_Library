@@ -6,6 +6,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/* MAXが入力される値より大きくなっていることを確認する */
 const int MAX = 510'000;
 const int MOD = 1'000'000'007;
 
