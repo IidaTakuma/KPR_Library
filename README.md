@@ -30,7 +30,8 @@
 
 | 名前        | プログラム                                                   | 説明                        |
 | ----------- | ------------------------------------------------------------ | --------------------------- |
-| Combination | [combination.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/combination.cpp) | Mod Pにおける組み合わせ計算 |
+| Combination | [combination.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/combination.cpp) | 組み合わせ計算 |
+| Combination_Mod | [combination_mod.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/combination_mod.cpp) | Mod Pにおける組み合わせ計算 |
 
 #### 素数
 
