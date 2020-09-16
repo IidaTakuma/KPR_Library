@@ -57,7 +57,7 @@
 | 名前 | プログラム | 説明 |
 | ---- | ---------- | ---- |
 | 文字列分割 | [string_utility.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/string_utility.cpp) |      |
-| ローリングハッシュ| [rolling_hash.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/rolling_utility.cpp) ||
+| ローリングハッシュ| [rolling_hash.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/rolling_hash.cpp) ||
 
 ### 幾何
 
