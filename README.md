@@ -35,9 +35,10 @@
 
 #### 素数
 
-| 名前          | プログラム                                                   | 説明       |
-| ------------- | ------------------------------------------------------------ | ---------- |
-| Factorization | [factorization.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/factorization.cpp) | 素因数分解 |
+| 名前          | プログラム                                                   | 説明       |計算量|
+| ------------- | ------------------------------------------------------------ | ---------- | ----- |
+| Factorization | [factorization.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/factorization.cpp) | 素因数分解 |O(√N)|
+| Eratosthenesの篩 | [eratosthenes.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/eratosthenes.cpp) | 素数列挙 |O(NlogNlogN)|
 
 ### 経路探索
 
@@ -55,7 +56,7 @@
 
 | 名前 | プログラム | 説明 |
 | ---- | ---------- | ---- |
-|      |            |      |
+| 文字列分割 | [string_utility.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/string_utility.cpp) |      |
 
 ### 幾何
 
