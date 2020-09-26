@@ -9,11 +9,9 @@ using ll = long long;
 // 数値を受け取り素因数分解の結果を返す
 // 計算量はおおよそO(√N)
 // 形式：12 -> [[2, 2], [3, 1]]
-vector<pair<ll, ll>>
-factorization(ll num)
+map<ll, ll> factorization(ll num)
 {
     map<ll, ll> mp;
-
     ll tmp = num;
     for (ll i = 2; i * i <= num; i++)
     {
@@ -24,15 +22,8 @@ factorization(ll num)
         }
     }
     if (tmp != 1)
-    {
         mp[tmp]++;
-    }
-    vector<pair<ll, ll>> ret;
-    for (auto m : mp)
-    {
-        ret.push_back(make_pair(m.first, m.second));
-    }
-    return ret;
+    return mp;
 }
 
 int main()
