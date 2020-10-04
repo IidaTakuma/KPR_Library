@@ -16,7 +16,7 @@
 | 名前 | プログラム | 説明 |
 | ---- | ---------- | ---- |
 |UnionFind|[union_find.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/union_find.cpp)||
-|Binary Indexed Tree|[bit.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/bit.cpp)|O(logN)で区間和を取得|
+|Binary Indexed Tree|[bit.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/bit.cpp)|O(logN)で区間和を取得,要素の変更を行う|
 
 ### 数学
 
