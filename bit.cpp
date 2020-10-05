@@ -1,6 +1,7 @@
 /**
  * created: 04.10.2020
- * reference: https://qiita.com/DaikiSuyama/items/7295f5160a51684554a7
+ * reference1: https://qiita.com/DaikiSuyama/items/7295f5160a51684554a7
+ * reference2: https://www.slideshare.net/hcpc_hokudai/binary-indexed-tree
  * sample problem: https://atcoder.jp/contests/practice2/tasks/practice2_b
 **/
 
