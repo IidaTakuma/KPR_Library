@@ -17,6 +17,7 @@
 | ---- | ---------- | ---- |
 |UnionFind|[union_find.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/union_find.cpp)||
 |Binary Indexed Tree|[bit.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/bit.cpp)|O(logN)で区間和を取得,要素の変更を行う|
+|Segment Tree|[segment_tree.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/segment_tree.cpp)|O(logN)で区間に対してクエリを実行，要素の変更を行う|
 
 ### 数学
 
