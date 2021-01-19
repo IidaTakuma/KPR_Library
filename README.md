@@ -50,10 +50,11 @@
 | ダイクストラ法 | [dijkstra.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/dijkstra.cpp) | 単一始点経路探索 |
 | ワーシャルフロイド | [warshall_floyd.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/warshall_floyd.cpp) | 全点間経路探索 |
 
-### グラフ探索
+### グラフ
 
 | 名前              | プログラム                                                   | 説明 | 計算量 |
 | ----------------- | ------------------------------------------------------------ | ---- | ------ |
+| トポロジカルソート | [topological_sort.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/topological_sort.cpp)|||
 | 深さ優先探索(DFS) | [dfs.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/dfs.cpp) |      | O(N+M) |
 
 ### 文字列
