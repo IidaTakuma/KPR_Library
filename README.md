@@ -1,76 +1,70 @@
 # KPR_Library
 
-[tottokodaichans](https://atcoder.jp/users/tottokodaichans)の競技プログラミングのライブラリです．
+Competitive Programming Library of [tottokodaichans](https://atcoder.jp/users/tottokodaichans)
 
-## 目次
+## Contents
 
-### ユーティリティ
+### Data Type
 
-| 名前   | プログラム                                                   | 説明 |
-| ------ | ------------------------------------------------------------ | ---- |
-| mint | [modint.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/modint.cpp) |      |
-| ModPow | [mod_pow.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/mod_pow.cpp) | 高速な累乗計算(繰り返し二乗法) |
+| Name | Source | Description | Order |
+| ---- | ------ | ----------- | ----- |
+| mint | [modint.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/modint.cpp) |||
 
-### データ構造
+### Data Structure
 
-| 名前 | プログラム | 説明 |
-| ---- | ---------- | ---- |
-|UnionFind|[union_find.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/union_find.cpp)||
-|Binary Indexed Tree|[bit.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/bit.cpp)|O(logN)で区間和を取得,要素の変更を行う|
-|Segment Tree|[segment_tree.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/segment_tree.cpp)|O(logN)で区間に対してクエリを実行，要素の変更を行う|
+| Name | Source | Description | Order |
+| ---- | ------ | ----------- | ----- |
+| UnionFind | [union_find.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/data_structure/union_find.cpp) |||
+| Binary Indexed Tree | [bit.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master//data_structure/bit.cpp) | 区間和を取得,要素の変更を実行 | O(logn) / Query |
+| Segment Tree | [ segment_tree.cpp ](https://github.com/IidaTakuma/KPR_Library/blob/master//data_structure/segment_tree.cpp) | 区間へのクエリ，要素の変更を実行 | O(logn) / Query |
 
-### 数学
+### Math Utility
 
-#### 最大公約数・最小公倍数
+#### GCD・LCM
 
-| 名前 | プログラム                                                   | 説明       |
-| ---- | ------------------------------------------------------------ | ---------- |
-| gcd  | [gcd.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/gcd.cpp) | 最大公約数 |
-| lcm  | [lcm.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/lcm.cpp) | 最小公倍数 |
+| Name | Source | Description | Order |
+| ---- | ------ | ----------- | ----- |
+| gcd | [gcd.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/math_utility/gcd.cpp) | 最大公約数 |
+| lcm | [lcm.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/math_utility/lcm.cpp) | 最小公倍数 |
 
-#### 組み合わせ
+#### Combination
 
-| 名前        | プログラム                                                   | 説明                        |
-| ----------- | ------------------------------------------------------------ | --------------------------- |
-| Combination | [combination.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/combination.cpp) | 組み合わせ計算 |
-| Combination Mod | [combination_mod.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/combination_mod.cpp) | Mod Pにおける組み合わせ計算 |
-| Binomial Coefficient | [binomial_coefficient.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/binomial_coefficient.cpp) | 組み合わせ計算 / 階乗 |
+| Name | Source | Description | Order |
+| ---- | ------ | ----------- | ----- |
+| Combination Mod | [combination_mod.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/math_utility/combination_mod.cpp) | Mod Pにおける組み合わせ計算 |
+| Binomial Coefficient | [binomial_coefficient.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/math_utility/binomial_coefficient.cpp) | 組み合わせ計算 / 階乗 |
+| ModPow | [mod_pow.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/math_utility/mod_pow.cpp) | 高速な累乗計算(繰り返し二乗法) |
 
-#### 素数
+#### Prime Number
 
-| 名前          | プログラム                                                   | 説明       |計算量|
-| ------------- | ------------------------------------------------------------ | ---------- | ----- |
-| Factorization | [factorization.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/factorization.cpp) | 素因数分解 |O(√N)|
-| Eratosthenesの篩 | [eratosthenes.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/eratosthenes.cpp) | 素数列挙 |O(NlogNlogN)|
+| Name | Source | Description | Order |
+| ---- | ------ | ----------- | ----- |
+| Factorization | [factorization.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/math_utility/factorization.cpp) | 素因数分解 |O(√N)|
+| Sieve of Eratosthenes | [eratosthenes.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/math_utility/eratosthenes.cpp) | 素数列挙 |O(NlogNlogN)|
 
-### 経路探索
+### Graph Unitlity
 
-| 名前           | プログラム                                                   | 説明             |
-| -------------- | ------------------------------------------------------------ | ---------------- |
-| ダイクストラ法 | [dijkstra.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/dijkstra.cpp) | 単一始点経路探索 |
-| ワーシャルフロイド | [warshall_floyd.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/warshall_floyd.cpp) | 全点間経路探索 |
+| Name | Source | Description | Order |
+| ---- | ------ | ----------- | ----- |
+| Dijkstra | [dijkstra.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/graph_utility/dijkstra.cpp) | Single Source Shortest Path ||
+| Warshall Floyd | [warshall_floyd.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/graph_utility/warshall_floyd.cpp) |||
+| Topological Sort | [topological_sort.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/graph_utility/topological_sort.cpp)|||
+| DFS | [dfs.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/graph_utility/dfs.cpp) | Depth First Search | O(N+M) |
+| BFS | [bfs.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/graph_utility/bfs.cpp) | Breadth First Search | O(N+M) |
 
-### グラフ
+### String Utility
 
-| 名前              | プログラム                                                   | 説明 | 計算量 |
-| ----------------- | ------------------------------------------------------------ | ---- | ------ |
-| トポロジカルソート | [topological_sort.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/topological_sort.cpp)|||
-| 深さ優先探索(DFS) | [dfs.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/dfs.cpp) |      | O(N+M) |
+| Name | Source | Description | Order |
+| ---- | ------ | ----------- | ----- |
+| Split String | [split_string.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/string_utility/split_string.cpp) |||
+| Rolling Hash | [rolling_hash.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/string_utility/rolling_hash.cpp) |||
 
-### 文字列
+### Geometry
 
-| 名前 | プログラム | 説明 |
-| ---- | ---------- | ---- |
-| 文字列分割 | [string_utility.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/string_utility.cpp) |      |
-| ローリングハッシュ| [rolling_hash.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/rolling_hash.cpp) ||
-
-### 幾何
-
-| 名前 | プログラム | 説明 |
-| ---- | ---------- | ---- |
-| 線分の交差判定 | [is_cross.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/is_cross.cpp) ||
-
-
+| Name | Source | Description | Order |
+| ---- | ------ | ----------- | ----- |
+| Segment Cross | [is_cross.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/geometry/is_cross.cpp) | Judgement of Intersection of line segment ||
+| Geometry 2D | [geometry_2d.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/geometry/geometry_2d.cpp) |||
 
 ### Tips
 [浮動少数点の誤差について](https://qiita.com/mod_poppo/items/910b5fb9303baf864bf7)
