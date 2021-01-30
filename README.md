@@ -49,6 +49,7 @@ Competitive Programming Library of [tottokodaichans](https://atcoder.jp/users/to
 | Dijkstra | [dijkstra.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/graph_utility/dijkstra.cpp) | Single Source Shortest Path ||
 | Warshall Floyd | [warshall_floyd.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/graph_utility/warshall_floyd.cpp) |||
 | Topological Sort | [topological_sort.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/graph_utility/topological_sort.cpp)|||
+| Hamilton | [hamilton.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/graph_utility/hamilton.cpp) || O(2^n * n^2) |
 | DFS | [dfs.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/graph_utility/dfs.cpp) | Depth First Search | O(N+M) |
 | BFS | [bfs.cpp](https://github.com/IidaTakuma/KPR_Library/blob/master/graph_utility/bfs.cpp) | Breadth First Search | O(N+M) |
 
